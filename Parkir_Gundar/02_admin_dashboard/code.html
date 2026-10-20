@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"error":"#ba1a1a","on-tertiary-container":"#ffe1c0","tertiary-fixed-dim":"#ffb95f","surface-container-low":"#eff4ff","primary-fixed-dim":"#d2bbff","tertiary":"#704500","on-primary-fixed":"#25005a","surface-container":"#e5eeff","inverse-primary":"#d2bbff","on-surface-variant":"#4a4455","outline-variant":"#ccc3d8","on-secondary":"#ffffff","tertiary-container":"#905b00","surface":"#f8f9ff","on-tertiary-fixed":"#2a1700","on-error-container":"#93000a","surface-container-highest":"#d3e4fe","on-background":"#0b1c30","surface-variant":"#d3e4fe","on-surface":"#0b1c30","inverse-on-surface":"#eaf1ff","secondary-container":"#6cf8bb","outline":"#7b7487","surface-container-high":"#dce9ff","surface-container-lowest":"#ffffff","primary-container":"#7c3aed","primary-fixed":"#eaddff","surface-dim":"#cbdbf5","on-secondary-container":"#00714d","on-primary-container":"#ede0ff","on-secondary-fixed":"#002113","tertiary-fixed":"#ffddb8","primary":"#630ed4","on-tertiary-fixed-variant":"#653e00","on-primary-fixed-variant":"#5a00c6","error-container":"#ffdad6","surface-bright":"#f8f9ff","on-tertiary":"#ffffff","on-primary":"#ffffff","inverse-surface":"#213145","secondary-fixed":"#6ffbbe","secondary":"#006c49","background":"#f8f9ff","secondary-fixed-dim":"#4edea3","on-secondary-fixed-variant":"#005236","on-error":"#ffffff","surface-tint":"#732ee4"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"1rem","gutter":"1.5rem","space-sm":"0.5rem","space-xs":"0.25rem","space-md":"1rem","margin-mobile":"1rem","space-xl":"2rem","margin":"1.5rem","space-lg":"1.5rem"},"fontFamily":{"display-lg-mobile":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"body-md":["Inter"],"title-sm":["Plus Jakarta Sans"],"body-lg":["Inter"],"body-sm":["Inter"],"headline-sm":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"label-xs":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"]},"fontSize":{"display-lg-mobile":["30px",{"lineHeight":"38px","letterSpacing":"-0.02em","fontWeight":"800"}],"title-md":["16px",{"lineHeight":"24px","fontWeight":"600"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"display-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"800"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"title-sm":["14px",{"lineHeight":"20px","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"label-md":["14px",{"lineHeight":"20px","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-xs":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface text-on-surface font-body-md text-body-md min-h-screen"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between"><div class="flex flex-col flex-1 min-h-0"><div class="p-space-lg flex items-center justify-between"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-on-primary shadow-sm"><span class="material-symbols-outlined text-[24px]">local_parking</span></div><div><span class="font-title-sm text-title-sm text-on-surface block leading-tight tracking-tight">GUNADARMA PARK</span><span class="font-label-xs text-label-xs text-on-surface-variant block tracking-wider uppercase">Smart Campus System</span></div></div><span class="font-label-xs text-label-xs font-bold px-space-xs py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed">ADMIN</span></div><div class="px-space-md py-space-xs flex-1 overflow-y-auto"><div class="px-space-sm pb-space-xs"><span class="font-label-xs text-label-xs uppercase tracking-wider text-on-surface-variant">Navigasi Utama</span></div><nav class="flex flex-col gap-space-xs" data-active-classes="bg-primary-container text-on-primary font-bold shadow-sm"><a aria-current="page" class="flex items-center justify-between px-space-md py-2.5 rounded-xl transition-colors bg-primary-container text-on-primary font-bold shadow-sm" data-path="dashboard" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">dashboard</span><span class="font-label-md text-label-md">Dashboard</span></div></a><a class="flex items-center justify-between px-space-md py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="kelola-area-parkir" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">garage_home</span><span class="font-label-md text-label-md">Kelola Area Parkir</span></div></a><a class="flex items-center justify-between px-space-md py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="denah-parkir" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">map</span><span class="font-label-md text-label-md">Denah Parkir</span></div></a><a class="flex items-center justify-between px-space-md py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="monitoring-iot" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">sensors</span><span class="font-label-md text-label-md">Monitoring IoT</span></div></a><a class="flex items-center justify-between px-space-md py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="riwayat-aktivitas" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">history</span><span class="font-label-md text-label-md">Riwayat Aktivitas</span></div></a><a class="flex items-center justify-between px-space-md py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="notifikasi" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="font-label-md text-label-md">Notifikasi</span></div><span class="px-2 py-0.5 rounded-full bg-error text-on-error font-label-xs text-label-xs">4</span></a><a class="flex items-center justify-between px-space-md py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="pengaturan" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">settings</span><span class="font-label-md text-label-md">Pengaturan</span></div></a></nav></div></div><div class="p-space-md bg-surface-container-lowest"><div class="p-space-sm rounded-xl bg-surface-container-low flex items-center justify-between mb-space-sm"><div class="flex items-center gap-space-sm min-w-0"><div class="w-9 h-9 rounded-full bg-primary flex items-center justify-center flex-shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><div class="truncate"><p class="font-label-md text-label-md text-on-surface truncate">Pak Bambang S., S.Kom</p><p class="font-label-xs text-label-xs text-on-surface-variant truncate">Super Admin</p></div></div></div><a class="w-full flex items-center justify-center gap-space-xs py-2 px-space-md rounded-lg text-error hover:bg-error-container hover:text-on-error-container transition-colors font-label-md text-label-md" data-path="login" href="#"><span class="material-symbols-outlined text-[18px]">logout</span><span>Keluar</span></a></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 px-space-lg flex items-center justify-between"><div class="flex items-center gap-space-lg flex-1 max-w-2xl"><nav class="hidden xl:flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm"><span class="hover:text-on-surface cursor-pointer">UG Portal</span><span class="material-symbols-outlined text-[16px]">chevron_right</span><span class="hover:text-on-surface cursor-pointer">Parkir</span><span class="material-symbols-outlined text-[16px]">chevron_right</span><span class="text-primary font-bold">Admin</span></nav><div class="relative flex-1 max-w-md"><span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">search</span><input class="w-full pl-9 pr-space-md py-1.5 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm placeholder:text-on-surface-variant outline-none focus:ring-2 focus:ring-primary/20 transition-all" placeholder="Cari area parkir, ID sensor, atau transaksi..." type="text"/></div></div><div class="flex items-center gap-space-md"><div class="hidden md:flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-secondary-container text-on-secondary-container"><span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span><span class="font-label-xs text-label-xs font-bold">Sistem Operasional Normal</span></div><div class="flex items-center gap-space-xs px-space-sm py-1.5 rounded-lg bg-surface-container-low text-on-surface cursor-pointer hover:bg-surface-container-high hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[18px] text-primary">apartment</span><span class="font-label-sm text-label-sm font-bold">Semua Kampus (D, E, G, H)</span><span class="material-symbols-outlined text-[16px] text-on-surface-variant">expand_more</span></div><div class="relative"><button class="w-9 h-9 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high flex items-center justify-center transition-colors relative"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-error"></span></button></div><div class="flex items-center gap-space-sm pl-space-xs"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<div class="px-space-lg py-space-lg flex flex-col gap-space-lg max-w-[1440px] mx-auto w-full">
+<!-- TOP HEADER -->
+<section class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div>
+<div class="flex items-center gap-space-sm mb-1">
+<span class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Dashboard Admin</span>
+<span class="px-2.5 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-xs text-label-xs uppercase">Pusat Kendali</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Pantau kondisi parkir, okupansi kapasitas, dan telemetri sensor kampus secara real-time.
+        </p>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm">
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-ping"></span>
+<span class="w-2 h-2 -ml-3.5 rounded-full bg-secondary"></span>
+<span class="font-label-xs text-label-xs font-bold text-on-surface">DATA DEMO • Terhubung Telemetri Gateway v2.4</span>
+</div>
+<button class="flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-surface-container-lowest text-primary shadow-sm hover:bg-surface-container-high transition-all" id="btn-sync">
+<span class="material-symbols-outlined text-[18px]">sync</span>
+<span class="font-label-md text-label-md">Sinkronkan Data</span>
+</button>
+<button class="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-primary text-on-primary shadow-md hover:bg-primary-container transition-all">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span class="font-label-md text-label-md">Cetak Laporan Harian</span>
+</button>
+</div>
+</section>
+<!-- METRICS GRID (4 CARDS) -->
+<section class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-space-md">
+<!-- Card 1: Total Slot -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Total Slot Parkir</span>
+<div class="flex items-baseline gap-2 mt-2">
+<span class="font-display-lg text-display-lg text-on-surface">240</span>
+<span class="font-label-xs text-label-xs font-bold text-on-surface-variant">Slot</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[26px]">local_parking</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-md mt-space-md bg-gradient-to-r from-transparent via-surface-container-high/40 to-transparent">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kapasitas di 4 Area Kampus</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface font-label-xs text-label-xs">Stabil</span>
+</div>
+</div>
+<!-- Card 2: Slot Tersedia -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Slot Tersedia</span>
+<div class="flex items-baseline gap-2 mt-2">
+<span class="font-display-lg text-display-lg text-secondary">86</span>
+<span class="font-label-xs text-label-xs font-bold text-secondary">Kosong</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-on-secondary-container shadow-sm">
+<span class="material-symbols-outlined text-[26px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-md mt-space-md">
+<span class="font-body-sm text-body-sm text-on-surface-variant">35.8% Tersedia untuk civitas</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-xs text-label-xs font-bold">Siap Pakai</span>
+</div>
+</div>
+<!-- Card 3: Slot Terisi -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Slot Terisi</span>
+<div class="flex items-baseline gap-2 mt-2">
+<span class="font-display-lg text-display-lg text-error">154</span>
+<span class="font-label-xs text-label-xs font-bold text-error">Unit</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-xl bg-error-container flex items-center justify-center text-on-error-container shadow-sm">
+<span class="material-symbols-outlined text-[26px]">directions_car</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-md mt-space-md">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kendaraan aktif terparkir</span>
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-xs text-label-xs font-bold">Terpantau</span>
+</div>
+</div>
+<!-- Card 4: Kapasitas Terpakai -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Kapasitas Terpakai</span>
+<div class="flex items-baseline gap-2 mt-2">
+<span class="font-display-lg text-display-lg text-on-surface">64.2%</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-tertiary shadow-sm">
+<span class="material-symbols-outlined text-[26px]">pie_chart</span>
+</div>
+</div>
+<div class="pt-space-md mt-space-md flex flex-col gap-1.5">
+<div class="w-full bg-surface-container-high rounded-full h-2.5 overflow-hidden">
+<div class="bg-gradient-to-r from-primary to-primary-container h-full rounded-full" style="width: 64.2%;"></div>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-right">154 dari 240 slot total</span>
+</div>
+</div>
+</section>
+<!-- MAIN TWO-COLUMN SECTION -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- LEFT / WIDE COLUMN (8 cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- CHART PANEL -->
+<section class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-md">
+<div>
+<span class="font-headline-sm text-headline-sm text-on-surface block">Tren Okupansi & Arus Masuk/Keluar</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Periode pemantauan 24 jam terakhir seluruh gerbang kampus</span>
+</div>
+<div class="flex items-center rounded-xl bg-surface-container-low p-1 gap-1 self-start sm:self-auto">
+<button class="px-3 py-1 rounded-lg bg-surface-container-lowest font-label-xs text-label-xs font-bold text-primary shadow-sm">Hari Ini</button>
+<button class="px-3 py-1 rounded-lg text-on-surface-variant hover:text-on-surface font-label-xs text-label-xs transition-colors">Minggu Ini</button>
+<button class="px-3 py-1 rounded-lg text-on-surface-variant hover:text-on-surface font-label-xs text-label-xs transition-colors">Bulan Ini</button>
+</div>
+</div>
+<!-- SVG Chart -->
+<div class="w-full h-72 py-2 relative flex items-center justify-center">
+<svg class="w-full h-full overflow-visible" preserveaspectratio="none" viewbox="0 0 800 280">
+<defs>
+<!-- Purple Gradient for Occupancy Area -->
+<lineargradient id="purpleGlow" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#7c3aed" stop-opacity="0.35"></stop>
+<stop offset="100%" stop-color="#7c3aed" stop-opacity="0.0"></stop>
+</lineargradient>
+<lineargradient id="greenGlow" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#006c49" stop-opacity="0.25"></stop>
+<stop offset="100%" stop-color="#006c49" stop-opacity="0.0"></stop>
+</lineargradient>
+</defs>
+<!-- Grid Horizontal Lines -->
+<line stroke="#eff4ff" stroke-dasharray="4 4" stroke-width="1.5" x1="40" x2="780" y1="30" y2="30"></line>
+<line stroke="#eff4ff" stroke-dasharray="4 4" stroke-width="1.5" x1="40" x2="780" y1="90" y2="90"></line>
+<line stroke="#eff4ff" stroke-dasharray="4 4" stroke-width="1.5" x1="40" x2="780" y1="150" y2="150"></line>
+<line stroke="#eff4ff" stroke-width="1.5" x1="40" x2="780" y1="210" y2="210"></line>
+<!-- Y-Axis Labels -->
+<text fill="#7b7487" font-family="Plus Jakarta Sans" font-size="11" text-anchor="end" x="25" y="34">100%</text>
+<text fill="#7b7487" font-family="Plus Jakarta Sans" font-size="11" text-anchor="end" x="25" y="94">75%</text>
+<text fill="#7b7487" font-family="Plus Jakarta Sans" font-size="11" text-anchor="end" x="25" y="154">50%</text>
+<text fill="#7b7487" font-family="Plus Jakarta Sans" font-size="11" text-anchor="end" x="25" y="214">0%</text>
+<!-- Area Fill: Occupancy Curve (Purple) -->
+<path d="M 60 210 Q 140 205, 200 140 T 320 50 T 440 60 T 560 120 T 680 180 T 760 200 L 760 210 L 60 210 Z" fill="url(#purpleGlow)"></path>
+<!-- Line 1: Occupancy (Purple - Peaks 10:00 - 13:00) -->
+<path d="M 60 210 Q 140 205, 200 140 T 320 50 T 440 60 T 560 120 T 680 180 T 760 200" fill="none" stroke="#630ed4" stroke-linecap="round" stroke-width="3"></path>
+<!-- Line 2: Inbound Vehicles (Green - Peak Morning 07:30 - 09:00) -->
+<path d="M 60 205 Q 120 190, 180 80 T 260 90 T 360 170 T 480 190 T 600 200 T 760 208" fill="none" stroke="#006c49" stroke-linecap="round" stroke-width="2.5"></path>
+<!-- Line 3: Outbound Vehicles (Red - Peak Afternoon 15:00 - 17:30) -->
+<path d="M 60 208 Q 180 205, 300 200 T 440 180 T 540 85 T 640 100 T 720 170 T 760 205" fill="none" stroke="#ba1a1a" stroke-linecap="round" stroke-width="2.5"></path>
+<!-- Data Dots at Peaks -->
+<circle cx="340" cy="52" fill="#630ed4" r="5" stroke="#ffffff" stroke-width="2"></circle>
+<circle cx="180" cy="80" fill="#006c49" r="4.5" stroke="#ffffff" stroke-width="2"></circle>
+<circle cx="540" cy="85" fill="#ba1a1a" r="4.5" stroke="#ffffff" stroke-width="2"></circle>
+<!-- X-Axis Timestamps -->
+<text fill="#7b7487" font-size="11" text-anchor="middle" x="60" y="235">06:00</text>
+<text fill="#7b7487" font-size="11" text-anchor="middle" x="180" y="235">08:00</text>
+<text fill="#7b7487" font-size="11" text-anchor="middle" x="300" y="235">11:00</text>
+<text fill="#7b7487" font-size="11" text-anchor="middle" x="420" y="235">13:00</text>
+<text fill="#7b7487" font-size="11" text-anchor="middle" x="540" y="235">16:00</text>
+<text fill="#7b7487" font-size="11" text-anchor="middle" x="660" y="235">18:00</text>
+<text fill="#7b7487" font-size="11" text-anchor="middle" x="760" y="235">21:00</text>
+</svg>
+</div>
+<!-- Legend Bar -->
+<div class="flex flex-wrap items-center justify-center gap-space-lg pt-space-md bg-surface-container-low rounded-xl p-3 mt-2">
+<div class="flex items-center gap-2">
+<span class="w-3.5 h-3.5 rounded-full bg-primary flex-shrink-0"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Tingkat Okupansi (%)</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-3.5 h-3.5 rounded-full bg-secondary flex-shrink-0"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Kendaraan Masuk (Inbound)</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-3.5 h-3.5 rounded-full bg-error flex-shrink-0"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Kendaraan Keluar (Outbound)</span>
+</div>
+</div>
+</section>
+<!-- AREA CAPACITY OVERVIEW (DETAILED BREAKDOWN) -->
+<section class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-headline-sm text-headline-sm text-on-surface block">Ringkasan Kapasitas per Area Kampus</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Status pembagian bay parkir aktif berdasarkan node gateway IoT</span>
+</div>
+<span class="font-label-xs text-label-xs text-on-surface-variant">Update: 1 Menit Lalu</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Area 1: Kampus D -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col justify-between gap-space-sm hover:shadow-sm transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<div class="flex items-center gap-1.5">
+<span class="px-2 py-0.5 rounded-md bg-primary-fixed text-on-primary-fixed font-label-xs text-label-xs font-bold">KAMPUS D</span>
+<span class="font-title-sm text-title-sm text-on-surface">Gedung 2 & Basement 4</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1 block">Total Kapasitas: 100 Slot</span>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-xs text-label-xs font-bold">Hampir Penuh</span>
+</div>
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-center font-label-xs text-label-xs text-on-surface-variant">
+<span>Terisi: <b class="text-on-surface">78 Slot</b></span>
+<span>Tersedia: <b class="text-secondary">22 Slot</b></span>
+<span class="text-primary font-bold">78%</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 78%;"></div>
+</div>
+</div>
+</div>
+<!-- Area 2: Kampus E -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col justify-between gap-space-sm hover:shadow-sm transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<div class="flex items-center gap-1.5">
+<span class="px-2 py-0.5 rounded-md bg-primary-fixed text-on-primary-fixed font-label-xs text-label-xs font-bold">KAMPUS E</span>
+<span class="font-title-sm text-title-sm text-on-surface">Kelapa Dua FTI</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1 block">Total Kapasitas: 60 Slot</span>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-error-container text-on-error-container font-label-xs text-label-xs font-bold">Perhatian</span>
+</div>
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-center font-label-xs text-label-xs text-on-surface-variant">
+<span>Terisi: <b class="text-on-surface">48 Slot</b></span>
+<span>Tersedia: <b class="text-error font-bold">12 Slot</b></span>
+<span class="text-error font-bold">80%</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-error h-full rounded-full" style="width: 80%;"></div>
+</div>
+</div>
+</div>
+<!-- Area 3: Kampus G -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col justify-between gap-space-sm hover:shadow-sm transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<div class="flex items-center gap-1.5">
+<span class="px-2 py-0.5 rounded-md bg-surface-container-high text-on-surface font-label-xs text-label-xs font-bold">KAMPUS G</span>
+<span class="font-title-sm text-title-sm text-on-surface">Laboratorium Terpadu</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1 block">Total Kapasitas: 40 Slot</span>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-xs text-label-xs font-bold">Normal</span>
+</div>
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-center font-label-xs text-label-xs text-on-surface-variant">
+<span>Terisi: <b class="text-on-surface">18 Slot</b></span>
+<span>Tersedia: <b class="text-secondary">22 Slot</b></span>
+<span class="text-secondary font-bold">45%</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 45%;"></div>
+</div>
+</div>
+</div>
+<!-- Area 4: Kampus H -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col justify-between gap-space-sm hover:shadow-sm transition-shadow">
+<div class="flex items-start justify-between">
+<div>
+<div class="flex items-center gap-1.5">
+<span class="px-2 py-0.5 rounded-md bg-surface-container-high text-on-surface font-label-xs text-label-xs font-bold">KAMPUS H</span>
+<span class="font-title-sm text-title-sm text-on-surface">Simatupang Gedung Utama</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1 block">Total Kapasitas: 40 Slot</span>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-xs text-label-xs font-bold">Kosong</span>
+</div>
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-center font-label-xs text-label-xs text-on-surface-variant">
+<span>Terisi: <b class="text-on-surface">10 Slot</b></span>
+<span>Tersedia: <b class="text-secondary">30 Slot</b></span>
+<span class="text-secondary font-bold">25%</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 25%;"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- RIGHT COLUMN (4 cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- WARNING ALERT PANEL -->
+<section class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-error text-[22px]">warning</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Peringatan Kritis</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-error text-on-error font-label-xs text-label-xs font-bold">2 Aktif</span>
+</div>
+<!-- Alert 1 -->
+<div class="p-3.5 rounded-xl bg-error-container text-on-error-container flex flex-col gap-1.5 shadow-sm">
+<div class="flex items-start justify-between">
+<span class="font-label-md text-label-md font-bold">Peringatan Kapasitas</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-error text-on-error font-bold">Urgent</span>
+</div>
+<p class="font-body-sm text-body-sm leading-snug">
+              Basement Kampus D: Hanya tersisa <b>4 Slot Mobil</b>. Disarankan pengalihan ke Kampus G.
+            </p>
+</div>
+<!-- Alert 2 -->
+<div class="p-3.5 rounded-xl bg-surface-container-high text-on-surface flex flex-col gap-1.5">
+<div class="flex items-start justify-between">
+<span class="font-label-md text-label-md font-bold text-tertiary">Sensor Node #18 Offline</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant">12 mnt lalu</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">
+              Kampus E Lantai 2 tidak mengirimkan deteksi heartbeat magnetik.
+            </p>
+</div>
+<a class="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl bg-surface-container-low text-primary hover:bg-surface-container-high transition-colors font-label-md text-label-md font-bold" data-path="monitoring-iot" href="#">
+<span class="material-symbols-outlined text-[18px]">sensors</span>
+<span>Buka Monitoring IoT</span>
+</a>
+</section>
+<!-- QUICK SENSOR STATUS WIDGET -->
+<section class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface">Status Jaringan Sensor</span>
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-label-xs text-label-xs font-bold">14ms Gateway</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="p-3 rounded-xl bg-secondary-container/30 flex flex-col">
+<span class="font-label-xs text-label-xs text-on-secondary-container">Sensor Online</span>
+<span class="font-headline-md text-headline-md text-on-secondary-container mt-1">232</span>
+<span class="font-body-sm text-body-sm text-secondary font-bold">96.7% Berfungsi</span>
+</div>
+<div class="p-3 rounded-xl bg-error-container/40 flex flex-col">
+<span class="font-label-xs text-label-xs text-on-error-container">Sensor Maintenance</span>
+<span class="font-headline-md text-headline-md text-error mt-1">8</span>
+<span class="font-body-sm text-body-sm text-error font-bold">3.3% Gangguan</span>
+</div>
+</div>
+<div class="p-2.5 rounded-xl bg-surface-container-low flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Protokol MQTT Kampus</span>
+<span class="font-label-xs text-label-xs font-mono font-bold text-primary">v2.4-STABLE</span>
+</div>
+</section>
+<!-- RECENT ACTIVITY FEED -->
+<section class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface">Aktivitas Gerbang Terbaru</span>
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<!-- Event 1 -->
+<div class="p-2.5 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-2.5 min-w-0">
+<div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[18px]">directions_car</span>
+</div>
+<div class="truncate">
+<span class="font-label-sm text-label-sm text-on-surface block truncate font-mono">B 1420 UG</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate block">Masuk Gerbang Timur (Kampus D)</span>
+</div>
+</div>
+<span class="font-label-xs text-label-xs text-on-surface-variant flex-shrink-0">13:42</span>
+</div>
+<!-- Event 2 -->
+<div class="p-2.5 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-2.5 min-w-0">
+<div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-error flex-shrink-0">
+<span class="material-symbols-outlined text-[18px]">two_wheeler</span>
+</div>
+<div class="truncate">
+<span class="font-label-sm text-label-sm text-on-surface block truncate font-mono">B 4921 ECF</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate block">Keluar Gerbang Barat (Kampus E)</span>
+</div>
+</div>
+<span class="font-label-xs text-label-xs text-on-surface-variant flex-shrink-0">13:38</span>
+</div>
+<!-- Event 3 -->
+<div class="p-2.5 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-2.5 min-w-0">
+<div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary flex-shrink-0">
+<span class="material-symbols-outlined text-[18px]">local_parking</span>
+</div>
+<div class="truncate">
+<span class="font-label-sm text-label-sm text-on-surface block truncate font-mono">B 2819 PQR</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate block">Parkir di Slot A04 (Kampus D)</span>
+</div>
+</div>
+<span class="font-label-xs text-label-xs text-on-surface-variant flex-shrink-0">13:35</span>
+</div>
+<!-- Event 4 -->
+<div class="p-2.5 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-2.5 min-w-0">
+<div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[18px]">two_wheeler</span>
+</div>
+<div class="truncate">
+<span class="font-label-sm text-label-sm text-on-surface block truncate font-mono">B 6023 KML</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate block">Masuk Gerbang (Kampus G)</span>
+</div>
+</div>
+<span class="font-label-xs text-label-xs text-on-surface-variant flex-shrink-0">13:31</span>
+</div>
+</div>
+<a class="text-center font-label-sm text-label-sm text-primary hover:text-primary-container font-bold pt-1 transition-colors" data-path="riwayat-aktivitas" href="#">
+            Lihat Semua Riwayat (154 Sesi Hari Ini) →
+          </a>
+</section>
+</div>
+</div>
+<!-- BOTTOM DISCLAIMER BAR -->
+<footer class="mt-space-md p-space-md rounded-xl bg-surface-container-low flex items-center justify-between flex-wrap gap-space-sm text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-primary">info</span>
+<span class="font-body-sm text-body-sm">
+<strong>Catatan Sistem:</strong> Seluruh angka telemetri, status sensor, dan okupansi merupakan SIMULASI DATA DEMO prototipe sistem cerdas Universitas Gunadarma.
+        </span>
+</div>
+<span class="font-label-xs text-label-xs font-mono">UG-SMARTPARK • BUILD-2025.02</span>
+</footer>
+</div>
+<script>
+    document.getElementById('btn-sync')?.addEventListener('click', function() {
+      const btn = this;
+      const icon = btn.querySelector('.material-symbols-outlined');
+      if (icon) {
+        icon.classList.add('animate-spin');
+        btn.setAttribute('disabled', 'true');
+        setTimeout(() => {
+          icon.classList.remove('animate-spin');
+          btn.removeAttribute('disabled');
+        }, 1200);
+      }
+    });
+  </script>
+</div></main></div></body></html>

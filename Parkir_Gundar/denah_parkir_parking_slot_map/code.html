@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-secondary": "#ffffff", "on-tertiary-fixed-variant": "#653e00", "outline": "#7b7487", "tertiary-container": "#905b00", "secondary-container": "#6cf8bb", "background": "#f8f9ff", "on-tertiary-fixed": "#2a1700", "primary-fixed": "#eaddff", "on-secondary-fixed": "#002113", "inverse-primary": "#d2bbff", "surface-tint": "#732ee4", "on-primary-fixed": "#25005a", "on-secondary-fixed-variant": "#005236", "error": "#ba1a1a", "on-primary": "#ffffff", "tertiary": "#704500", "on-error-container": "#93000a", "surface-dim": "#cbdbf5", "surface-container": "#e5eeff", "secondary-fixed": "#6ffbbe", "on-tertiary-container": "#ffe1c0", "outline-variant": "#ccc3d8", "surface-bright": "#f8f9ff", "inverse-surface": "#213145", "inverse-on-surface": "#eaf1ff", "on-tertiary": "#ffffff", "on-surface": "#0b1c30", "on-surface-variant": "#4a4455", "primary-fixed-dim": "#d2bbff", "on-primary-container": "#ede0ff", "surface-container-low": "#eff4ff", "error-container": "#ffdad6", "surface": "#f8f9ff", "surface-container-high": "#dce9ff", "surface-container-highest": "#d3e4fe", "surface-variant": "#d3e4fe", "on-error": "#ffffff", "secondary-fixed-dim": "#4edea3", "primary-container": "#7c3aed", "primary": "#630ed4", "surface-container-lowest": "#ffffff", "on-background": "#0b1c30", "tertiary-fixed": "#ffddb8", "secondary": "#006c49", "tertiary-fixed-dim": "#ffb95f", "on-secondary-container": "#00714d", "on-primary-fixed-variant": "#5a00c6" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter": "1.5rem", "space-xs": "0.25rem", "margin-mobile": "1rem", "space-md": "1rem", "space-sm": "0.5rem", "space-xl": "2rem", "space-lg": "1.5rem", "margin": "1.5rem", "gutter-mobile": "1rem" }, "fontFamily": { "headline-lg-mobile": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "body-sm": ["Inter"], "label-sm": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "body-md": ["Inter"], "headline-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "label-xs": ["Plus Jakarta Sans"], "body-lg": ["Inter"], "display-lg-mobile": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "title-sm": ["Plus Jakarta Sans"] }, "fontSize": { "headline-lg-mobile": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700"}], "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600"}], "body-sm": ["12px", {"lineHeight": "16px", "fontWeight": "400"}], "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}], "display-lg": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "800"}], "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}], "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "600"}], "label-md": ["14px", {"lineHeight": "20px", "fontWeight": "600"}], "label-xs": ["11px", {"lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700"}], "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "display-lg-mobile": ["30px", {"lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "800"}], "title-md": ["16px", {"lineHeight": "24px", "fontWeight": "600"}], "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.015em", "fontWeight": "700"}], "title-sm": ["14px", {"lineHeight": "20px", "fontWeight": "600"}] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest z-50 flex flex-col justify-between py-space-lg shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col gap-space-lg"><div class="px-space-lg flex items-center gap-space-sm"><img alt="GUNADARMA PARK Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Un8k4-YZ0t_lRMC8B_LX_xeKqHmyfU1HRCXuOppMsyhK2Q1ERx6rT1bWASi2425tSfDkxDLrNd4nCHpGEly9f8CcxKQZNod5LdxsxqpJR6APM917WT4VmC4QGqb2F4EB5Y3b34MCSZIw83yBYqm9c-8Mu0KqrslRtShr1XI7DDQ9mXLbrxMtkEZnt_KenqhFDEsM4LiBzOSP03-1g3fHEeqwi9QpD1Y7hXmzZ6wyhULPI59qdBt8OrTxk"/><div class="flex flex-col"><span class="font-title-md text-title-md text-primary tracking-tight">GUNADARMA PARK</span><span class="font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider">Smart Campus Parking</span></div></div><nav class="flex flex-col gap-space-xs px-space-md" data-active-classes="bg-primary-fixed text-on-primary-fixed font-bold"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-label-md text-label-md" data-path="beranda" href="#"><span class="material-symbols-outlined text-[20px]">grid_view</span><span>Beranda</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-label-md text-label-md" data-path="cari-parkir" href="#"><span class="material-symbols-outlined text-[20px]">local_parking</span><span>Cari Parkir</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl transition-all bg-primary-fixed text-on-primary-fixed font-bold" data-path="denah-parkir" href="#"><span class="material-symbols-outlined text-[20px]">map</span><span>Denah Parkir</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-label-md text-label-md" data-path="estimasi-biaya" href="#"><span class="material-symbols-outlined text-[20px]">calculate</span><span>Estimasi Biaya</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-label-md text-label-md" data-path="riwayat-parkir" href="#"><span class="material-symbols-outlined text-[20px]">history</span><span>Riwayat Parkir</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-label-md text-label-md" data-path="notifikasi" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">notifications</span><span>Notifikasi</span></div><span class="px-space-xs py-0.5 rounded-full bg-primary text-on-primary font-label-xs text-label-xs">3</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all font-label-md text-label-md" data-path="profil" href="#"><span class="material-symbols-outlined text-[20px]">account_circle</span><span>Profil</span></a></nav></div><div class="px-space-md flex flex-col gap-space-sm"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-error hover:bg-error-container hover:text-on-error-container transition-all font-label-md text-label-md" data-path="keluar" href="#"><span class="material-symbols-outlined text-[20px]">logout</span><span>Keluar</span></a><div class="flex items-center gap-space-sm p-space-sm rounded-xl bg-surface-container-low"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlSSaysiGWSGVZb5QyNxSI2Y7mYDVjPjvFYnC5wlfwQeeq9ZFqaa85p0JXf1WD6RA_iUp00LsoTKdQnOxtByba4aJHJkOp6idMQhVJiYSul9JaZLWOjMVZJv8uJIX7PqcXU83i6NyFF3GKI9TtyBNbU5dK8ZWbIWGDhVANWxuTENmFPpFOzNNOeU1LPbtlyP3hHx1dfOwK9CNtYm8k5hhH8UaaiQAguRAeBwHDw9nOYPMLu2y21cEs"/><div class="flex flex-col min-w-0"><span class="font-label-sm text-label-sm text-on-surface truncate">Dimas Arya Pratama</span><span class="font-label-xs text-label-xs text-on-surface-variant truncate">Mahasiswa • FTI</span></div></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-md flex-1 max-w-lg"><div class="flex items-center gap-space-xs w-full bg-surface-container-low px-space-md py-space-xs rounded-xl"><span class="material-symbols-outlined text-outline text-[20px]">search</span><input class="w-full bg-transparent border-none outline-none font-body-sm text-body-sm text-on-surface placeholder:text-outline" placeholder="Cari zona parkir, gedung, atau fasilitas..." type="text"/></div></div><div class="flex items-center gap-space-lg"><div class="hidden lg:flex items-center gap-space-xs bg-surface-container-low px-space-md py-space-xs rounded-xl font-label-sm text-label-sm text-on-surface-variant"><span class="material-symbols-outlined text-secondary text-[18px]">schedule</span><span>13:45 WIB • Aktif</span></div><div class="flex items-center gap-space-xs bg-surface-container-low px-space-md py-space-xs rounded-xl font-label-sm text-label-sm text-on-surface"><span class="material-symbols-outlined text-primary text-[18px]">location_on</span><select class="bg-transparent border-none outline-none font-label-sm text-label-sm text-on-surface cursor-pointer"><option value="kampus-d">Kampus D Depok</option><option value="kampus-e">Kampus E Kelapa Dua</option><option value="kampus-j">Kampus J Kalimalang</option></select></div><div class="flex items-center gap-space-xs"><button class="relative p-space-xs rounded-xl text-on-surface-variant hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1 right-1 w-2 h-2 rounded-full bg-primary"></span></button></div><div class="flex items-center gap-space-sm pl-space-sm"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlSSaysiGWSGVZb5QyNxSI2Y7mYDVjPjvFYnC5wlfwQeeq9ZFqaa85p0JXf1WD6RA_iUp00LsoTKdQnOxtByba4aJHJkOp6idMQhVJiYSul9JaZLWOjMVZJv8uJIX7PqcXU83i6NyFF3GKI9TtyBNbU5dK8ZWbIWGDhVANWxuTENmFPpFOzNNOeU1LPbtlyP3hHx1dfOwK9CNtYm8k5hhH8UaaiQAguRAeBwHDw9nOYPMLu2y21cEs"/><div class="hidden xl:flex flex-col text-left"><span class="font-label-sm text-label-sm text-on-surface leading-tight">Dimas Arya Pratama</span><span class="font-label-xs text-label-xs text-on-surface-variant leading-tight">Teknik Informatika</span></div></div></div></header><main class="w-full pt-16 bg-background min-h-screen"><div class="flex flex-col w-full">
+<div class="p-space-lg lg:p-space-xl flex flex-col gap-space-lg max-w-[1440px] mx-auto w-full">
+<!-- Header & Live Telemetry Bar -->
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-primary-fixed text-primary font-label-xs text-label-xs">UG</span>
+<span class="font-label-xs text-label-xs text-primary font-bold uppercase tracking-wider">Smart Campus IoT Telemetry</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Denah Interaktif Slot Parkir</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Visualisasi denah spasial posisi setiap slot parkir kendaraan secara langsung (Sensor IoT Simulasi).
+        </p>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-container-low px-space-md py-space-sm rounded-xl self-start lg:self-auto">
+<span class="relative flex h-3 w-3">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary-fixed-dim opacity-75"></span>
+<span class="relative inline-flex rounded-full h-3 w-3 bg-secondary"></span>
+</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Sensor IoT Aktif</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant">Sinkronisasi 15 dtk lalu</span>
+</div>
+</div>
+</div>
+<!-- Filter & Control Bar -->
+<div class="flex flex-col xl:flex-row xl:items-center justify-between gap-space-md bg-surface-container-lowest p-space-md rounded-2xl shadow-sm">
+<div class="flex flex-wrap items-center gap-space-sm">
+<!-- Area Selector Dropdown -->
+<div class="flex items-center gap-space-xs bg-surface-container-low px-space-md py-space-xs rounded-xl">
+<span class="material-symbols-outlined text-primary text-[20px]">corporate_fare</span>
+<select class="bg-transparent border-none outline-none font-label-md text-label-md text-on-surface cursor-pointer pr-space-sm" id="zoneSelector">
+<option selected="" value="g2-l1">Zona Parkir Gedung 2 (Kampus D Depok) - Lantai 1</option>
+<option value="g2-l2">Zona Parkir Gedung 2 (Kampus D Depok) - Lantai 2</option>
+<option value="g3-basement">Zona Parkir Gedung 3 (Kampus D Depok) - Basement</option>
+<option value="g5-lapangan">Zona Terbuka Lapangan Serbaguna (Kampus E)</option>
+</select>
+</div>
+<!-- Vehicle Type Filter Pills -->
+<div class="flex items-center gap-1 bg-surface-container-low p-1 rounded-xl" id="typeFilterGroup">
+<button class="filter-type-btn px-space-md py-1.5 rounded-lg font-label-sm text-label-sm font-semibold transition-all bg-primary text-on-primary" data-filter="all">
+            Semua Slot
+          </button>
+<button class="filter-type-btn px-space-md py-1.5 rounded-lg font-label-sm text-label-sm font-semibold transition-all text-on-surface-variant hover:text-on-surface" data-filter="mobil">
+            Khusus Mobil
+          </button>
+<button class="filter-type-btn px-space-md py-1.5 rounded-lg font-label-sm text-label-sm font-semibold transition-all text-on-surface-variant hover:text-on-surface" data-filter="motor">
+            Khusus Motor
+          </button>
+</div>
+</div>
+<!-- Quick Status Filter -->
+<div class="flex items-center gap-space-xs self-start xl:self-auto">
+<span class="font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider hidden sm:inline">Status:</span>
+<button class="status-toggle-btn px-space-md py-1.5 rounded-lg font-label-sm text-label-sm font-semibold bg-surface-container-high text-on-surface transition-all" id="filterAllStatus">
+          Tampilkan Semua
+        </button>
+<button class="status-toggle-btn px-space-md py-1.5 rounded-lg font-label-sm text-label-sm font-semibold bg-surface-container-low text-on-surface-variant hover:text-on-surface transition-all flex items-center gap-1" id="filterGreenOnly">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>Hanya Tersedia</span>
+</button>
+</div>
+</div>
+<!-- Status Legend -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm">
+<div class="flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-space-sm rounded-xl shadow-sm">
+<span class="w-3.5 h-3.5 rounded-full bg-[#10b981] shadow-[0_0_8px_rgba(16,185,129,0.5)]"></span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Tersedia</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant truncate">Siap digunakan</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-space-sm rounded-xl shadow-sm">
+<span class="w-3.5 h-3.5 rounded-full bg-[#ef4444]"></span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Terisi</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant truncate">Kendaraan terparkir</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-space-sm rounded-xl shadow-sm">
+<span class="w-3.5 h-3.5 rounded-full bg-[#f59e0b]"></span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Perhatian</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant truncate">Reservasi / Perbaikan</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-space-sm rounded-xl shadow-sm">
+<span class="w-3.5 h-3.5 rounded-full bg-primary-container shadow-[0_0_8px_rgba(124,58,237,0.5)]"></span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold truncate">Slot Terpilih</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant truncate">Fokus navigasi</span>
+</div>
+</div>
+</div>
+<!-- Main Spatial Workspace: 2-Column Grid (65% / 35%) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Left Column: Spatial Visual Parking Grid Layout (65% ~ 8 cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<div class="bg-surface-container-lowest p-space-md lg:p-space-lg rounded-2xl shadow-sm overflow-hidden flex flex-col gap-space-md relative">
+<!-- Spatial Blueprint Top Information -->
+<div class="flex items-center justify-between pb-space-xs border-b border-surface-container-low">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">map</span>
+<div>
+<span class="font-title-sm text-title-sm text-on-surface">Tata Letak Geometris Lantai 1</span>
+<span class="block font-label-xs text-label-xs text-on-surface-variant">Sirkulasi Jalur Satu Arah • Navigasi Otomatis</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface font-label-xs text-label-xs flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">videocam</span> CCTV Aktif
+              </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface font-label-xs text-label-xs flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">accessible</span> 2 Akses Disabilitas
+              </span>
+</div>
+</div>
+<!-- Parking Lot Asphalt Canvas -->
+<div class="relative w-full rounded-2xl bg-[#1e293b] p-space-md lg:p-space-lg text-slate-100 select-none overflow-x-auto shadow-inner">
+<!-- Lane Entry Header Indicator -->
+<div class="flex items-center justify-between px-space-sm mb-space-md bg-slate-800/80 p-space-sm rounded-xl">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-[20px]">login</span>
+</div>
+<div>
+<div class="font-label-sm text-label-sm text-white font-bold flex items-center gap-1">
+                    GERBANG MASUK TIMUR
+                    <span class="material-symbols-outlined text-emerald-400 text-[16px] animate-pulse">arrow_downward</span>
+</div>
+<span class="font-label-xs text-label-xs text-slate-400">Dari Arah Boulevard Kampus D</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm text-right">
+<div>
+<div class="font-label-sm text-label-sm text-white font-bold flex items-center justify-end gap-1">
+<span class="material-symbols-outlined text-rose-400 text-[16px]">arrow_upward</span>
+                    GERBANG KELUAR BARAT
+                  </div>
+<span class="font-label-xs text-label-xs text-slate-400">Menuju Jl. Margonda Raya</span>
+</div>
+<div class="w-8 h-8 rounded-lg bg-rose-500/20 text-rose-400 flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-[20px]">logout</span>
+</div>
+</div>
+</div>
+<div class="min-w-[620px] flex flex-col gap-space-md">
+<!-- SECTION MOBIL: ROW A -->
+<div class="zone-row-mobil flex flex-col gap-space-xs">
+<div class="flex items-center justify-between px-space-xs">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-slate-400 font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary-fixed">directions_car</span>
+                    Baris A • Zona Mobil (Roda 4)
+                  </span>
+<span class="font-label-xs text-label-xs text-slate-400">Dimensi 2.5m x 5.0m</span>
+</div>
+<div class="grid grid-cols-8 gap-2">
+<!-- A01 [Merah] -->
+<button class="slot-btn group flex flex-col items-center justify-between p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 transition-all aspect-[4/5] relative" data-distance="38" data-note="Mobil Sedan Hitam (B 8931 GDA)" data-slot-id="A01" data-status="occupied" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-[#ef4444]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-bold">A01</span>
+<span class="material-symbols-outlined text-rose-400 text-[26px]">directions_car</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-rose-500/20 text-rose-300">Terisi</span>
+</button>
+<!-- A02 [Hijau] -->
+<button class="slot-btn group flex flex-col items-center justify-between p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 transition-all aspect-[4/5] relative" data-distance="32" data-note="Posisi strategis dekat tangga darurat" data-slot-id="A02" data-status="available" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-[#10b981] animate-pulse"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-bold">A02</span>
+<span class="material-symbols-outlined text-emerald-400 text-[26px]">local_parking</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300">Kosong</span>
+</button>
+<!-- A03 [Merah] -->
+<button class="slot-btn group flex flex-col items-center justify-between p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 transition-all aspect-[4/5] relative" data-distance="28" data-note="Kendaraan Dosen (B 1042 UGD)" data-slot-id="A03" data-status="occupied" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-[#ef4444]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-bold">A03</span>
+<span class="material-symbols-outlined text-rose-400 text-[26px]">directions_car</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-rose-500/20 text-rose-300">Terisi</span>
+</button>
+<!-- A04 [Ungu - Terpilih Default] -->
+<button class="slot-btn is-selected group flex flex-col items-center justify-between p-2 rounded-xl bg-primary-container text-on-primary transition-all aspect-[4/5] relative shadow-lg shadow-purple-500/25 scale-[1.04]" data-distance="25" data-note="Sayap Barat Gedung 2 • Paling Dekat Lift" data-slot-id="A04" data-status="available" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2.5 h-2.5 rounded-full bg-white animate-ping"></span>
+<span class="font-label-xs text-label-xs text-white font-extrabold">A04</span>
+<span class="material-symbols-outlined text-white text-[28px]">check_circle</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-white/20 text-white font-bold">Terpilih</span>
+</button>
+<!-- A05 [Hijau] -->
+<button class="slot-btn group flex flex-col items-center justify-between p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 transition-all aspect-[4/5] relative" data-distance="24" data-note="Dekat ramp pedestrian" data-slot-id="A05" data-status="available" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-bold">A05</span>
+<span class="material-symbols-outlined text-emerald-400 text-[26px]">local_parking</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300">Kosong</span>
+</button>
+<!-- A06 [Oranye - Perhatian] -->
+<button class="slot-btn group flex flex-col items-center justify-between p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 transition-all aspect-[4/5] relative" data-distance="26" data-note="Slot Reservasi Tamu Rektorat Jam 14:00" data-slot-id="A06" data-status="attention" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-[#f59e0b]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-bold">A06</span>
+<span class="material-symbols-outlined text-amber-400 text-[26px]">lock</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300">Reservasi</span>
+</button>
+<!-- A07 [Merah] -->
+<button class="slot-btn group flex flex-col items-center justify-between p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 transition-all aspect-[4/5] relative" data-distance="30" data-note="Mobil Dinas Operasional FTI" data-slot-id="A07" data-status="occupied" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-[#ef4444]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-bold">A07</span>
+<span class="material-symbols-outlined text-rose-400 text-[26px]">directions_car</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-rose-500/20 text-rose-300">Terisi</span>
+</button>
+<!-- A08 [Hijau] -->
+<button class="slot-btn group flex flex-col items-center justify-between p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 transition-all aspect-[4/5] relative" data-distance="34" data-note="Akses mudah menuju pintu keluar" data-slot-id="A08" data-status="available" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-bold">A08</span>
+<span class="material-symbols-outlined text-emerald-400 text-[26px]">local_parking</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300">Kosong</span>
+</button>
+</div>
+</div>
+<!-- Sirkulasi Jalur Mobil (Arah Barat -> Timur) -->
+<div class="relative py-2.5 px-space-md rounded-xl bg-slate-900/90 flex items-center justify-between overflow-hidden">
+<div class="flex items-center gap-space-sm">
+<span class="px-2 py-0.5 rounded bg-slate-800 text-[11px] font-bold tracking-widest text-slate-300 uppercase">Lajur Mobil 1 Arah</span>
+<span class="material-symbols-outlined text-yellow-400 text-[18px]">straight</span>
+</div>
+<div class="flex items-center gap-6 text-yellow-400/70 font-mono text-[12px] font-bold tracking-[0.3em]">
+<span>&gt;&gt;&gt;&gt;&gt;&gt;</span>
+<span class="hidden sm:inline">KECEPATAN MAKS 10 KM/JAM</span>
+<span>&gt;&gt;&gt;&gt;&gt;&gt;</span>
+</div>
+<div class="flex items-center gap-1 text-slate-400 font-label-xs text-label-xs">
+<span class="material-symbols-outlined text-[16px]">priority_high</span>
+<span>Beri jalan pejalan kaki</span>
+</div>
+</div>
+<!-- SECTION MOBIL: ROW B -->
+<div class="zone-row-mobil flex flex-col gap-space-xs">
+<div class="flex items-center justify-between px-space-xs">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-slate-400 font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary-fixed">directions_car</span>
+                    Baris B • Zona Mobil (Roda 4)
+                  </span>
+<span class="font-label-xs text-label-xs text-slate-400">Standar SUV / Sedan</span>
+</div>
+<div class="grid grid-cols-8 gap-2">
+<!-- B01 [Hijau] -->
+<button class="slot-btn group flex flex-col items-center justify-between p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 transition-all aspect-[4/5] relative" data-distance="40" data-note="Dekat koridor luar" data-slot-id="B01" data-status="available" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-bold">B01</span>
+<span class="material-symbols-outlined text-emerald-400 text-[26px]">local_parking</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300">Kosong</span>
+</button>
+<!-- B02 [Merah] -->
+<button class="slot-btn group flex flex-col items-center justify-between p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 transition-all aspect-[4/5] relative" data-distance="35" data-note="SUV Putih (B 2291 UGM)" data-slot-id="B02" data-status="occupied" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-[#ef4444]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-bold">B02</span>
+<span class="material-symbols-outlined text-rose-400 text-[26px]">directions_car</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-rose-500/20 text-rose-300">Terisi</span>
+</button>
+<!-- B03 [Hijau] -->
+<button class="slot-btn group flex flex-col items-center justify-between p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 transition-all aspect-[4/5] relative" data-distance="30" data-note="Akses mudah, penerangan memadai" data-slot-id="B03" data-status="available" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-bold">B03</span>
+<span class="material-symbols-outlined text-emerald-400 text-[26px]">local_parking</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300">Kosong</span>
+</button>
+<!-- B04 [Merah] -->
+<button class="slot-btn group flex flex-col items-center justify-between p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 transition-all aspect-[4/5] relative" data-distance="27" data-note="Mobil Dosen Tetap (B 7761 KAD)" data-slot-id="B04" data-status="occupied" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-[#ef4444]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-bold">B04</span>
+<span class="material-symbols-outlined text-rose-400 text-[26px]">directions_car</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-rose-500/20 text-rose-300">Terisi</span>
+</button>
+<!-- B05 [Merah] -->
+<button class="slot-btn group flex flex-col items-center justify-between p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 transition-all aspect-[4/5] relative" data-distance="28" data-note="City Car Mahasiswa (B 3481 FE)" data-slot-id="B05" data-status="occupied" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-[#ef4444]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-bold">B05</span>
+<span class="material-symbols-outlined text-rose-400 text-[26px]">directions_car</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-rose-500/20 text-rose-300">Terisi</span>
+</button>
+<!-- B06 [Hijau] -->
+<button class="slot-btn group flex flex-col items-center justify-between p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 transition-all aspect-[4/5] relative" data-distance="31" data-note="Dekat hydrant dan APAR" data-slot-id="B06" data-status="available" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-bold">B06</span>
+<span class="material-symbols-outlined text-emerald-400 text-[26px]">local_parking</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300">Kosong</span>
+</button>
+<!-- B07 [Oranye] -->
+<button class="slot-btn group flex flex-col items-center justify-between p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 transition-all aspect-[4/5] relative" data-distance="36" data-note="Pembersihan permukaan lantai &amp; perbaikan sensor" data-slot-id="B07" data-status="attention" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-[#f59e0b]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-bold">B07</span>
+<span class="material-symbols-outlined text-amber-400 text-[26px]">handyman</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300">Perbaikan</span>
+</button>
+<!-- B08 [Merah] -->
+<button class="slot-btn group flex flex-col items-center justify-between p-2 rounded-xl bg-slate-800/90 hover:bg-slate-700 transition-all aspect-[4/5] relative" data-distance="42" data-note="MPV Silver (B 9012 ERE)" data-slot-id="B08" data-status="occupied" data-type="mobil">
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-[#ef4444]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-bold">B08</span>
+<span class="material-symbols-outlined text-rose-400 text-[26px]">directions_car</span>
+<span class="font-label-xs text-label-xs px-1.5 py-0.5 rounded bg-rose-500/20 text-rose-300">Terisi</span>
+</button>
+</div>
+</div>
+<!-- Pembatas Zona Motor & Lajur Motor -->
+<div class="py-2 px-space-md rounded-xl bg-slate-900/90 flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="px-2 py-0.5 rounded bg-secondary/30 text-secondary-fixed text-[11px] font-bold uppercase tracking-wider">Zona Khusus Sepeda Motor</span>
+<span class="font-label-xs text-label-xs text-slate-400 hidden sm:inline">Kapasitas kompak • Jalur Akses Barat</span>
+</div>
+<div class="flex items-center gap-1 font-mono text-emerald-400 text-[12px]">
+<span>&lt;&lt;&lt; JALUR KHUSUS RODA DUA &lt;&lt;&lt;</span>
+</div>
+</div>
+<!-- SECTION MOTOR: ROW C (10 Bays) -->
+<div class="zone-row-motor flex flex-col gap-space-xs">
+<div class="flex items-center justify-between px-space-xs">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-slate-400 font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-secondary-fixed">two_wheeler</span>
+                    Baris C • Zona Motor (C01 - C10)
+                  </span>
+<span class="font-label-xs text-label-xs text-slate-400">1.0m x 2.2m</span>
+</div>
+<div class="grid grid-cols-10 gap-1.5">
+<!-- C01 - C10 -->
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="18" data-note="Sangat dekat tangga utama" data-slot-id="C01" data-status="available" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">C01</span>
+<span class="material-symbols-outlined text-emerald-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-emerald-300">Siap</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="19" data-note="Akses luas" data-slot-id="C02" data-status="available" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">C02</span>
+<span class="material-symbols-outlined text-emerald-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-emerald-300">Siap</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="20" data-note="Motor Matic (B 6543 TGB)" data-slot-id="C03" data-status="occupied" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#ef4444]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">C03</span>
+<span class="material-symbols-outlined text-rose-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-rose-300">Ada</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="22" data-note="Mudah bermanuver" data-slot-id="C04" data-status="available" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">C04</span>
+<span class="material-symbols-outlined text-emerald-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-emerald-300">Siap</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="23" data-note="Motor Sport (B 3312 KLP)" data-slot-id="C05" data-status="occupied" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#ef4444]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">C05</span>
+<span class="material-symbols-outlined text-rose-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-rose-300">Ada</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="25" data-note="Dekat pos keamanan satpam" data-slot-id="C06" data-status="available" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">C06</span>
+<span class="material-symbols-outlined text-emerald-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-emerald-300">Siap</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="26" data-note="Penerangan LED terang" data-slot-id="C07" data-status="available" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">C07</span>
+<span class="material-symbols-outlined text-emerald-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-emerald-300">Siap</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="28" data-note="Motor Bebek (B 4991 JAA)" data-slot-id="C08" data-status="occupied" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#ef4444]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">C08</span>
+<span class="material-symbols-outlined text-rose-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-rose-300">Ada</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="30" data-note="Vespa Matic (B 1120 POP)" data-slot-id="C09" data-status="occupied" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#ef4444]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">C09</span>
+<span class="material-symbols-outlined text-rose-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-rose-300">Ada</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="32" data-note="Ujung sayap timur" data-slot-id="C10" data-status="available" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">C10</span>
+<span class="material-symbols-outlined text-emerald-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-emerald-300">Siap</span>
+</button>
+</div>
+</div>
+<!-- SECTION MOTOR: ROW D (10 Bays) -->
+<div class="zone-row-motor flex flex-col gap-space-xs">
+<div class="flex items-center justify-between px-space-xs">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-slate-400 font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-secondary-fixed">two_wheeler</span>
+                    Baris D • Zona Motor (D01 - D10)
+                  </span>
+<span class="font-label-xs text-label-xs text-slate-400">1.0m x 2.2m</span>
+</div>
+<div class="grid grid-cols-10 gap-1.5">
+<!-- D01 - D10 -->
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="20" data-note="Maxi Scooter (B 4410 QAZ)" data-slot-id="D01" data-status="occupied" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#ef4444]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">D01</span>
+<span class="material-symbols-outlined text-rose-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-rose-300">Ada</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="21" data-note="Dekat stasiun pengisian helm" data-slot-id="D02" data-status="available" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">D02</span>
+<span class="material-symbols-outlined text-emerald-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-emerald-300">Siap</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="23" data-note="Akses cepat" data-slot-id="D03" data-status="available" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">D03</span>
+<span class="material-symbols-outlined text-emerald-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-emerald-300">Siap</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="24" data-note="Motor Listrik (B 1872 ELE)" data-slot-id="D04" data-status="occupied" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#ef4444]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">D04</span>
+<span class="material-symbols-outlined text-rose-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-rose-300">Ada</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="25" data-note="Mudah keluar jalur" data-slot-id="D05" data-status="available" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">D05</span>
+<span class="material-symbols-outlined text-emerald-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-emerald-300">Siap</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="27" data-note="Matic 125cc (B 8989 UGD)" data-slot-id="D06" data-status="occupied" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#ef4444]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">D06</span>
+<span class="material-symbols-outlined text-rose-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-rose-300">Ada</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="29" data-note="Dekat loker penitipan barang" data-slot-id="D07" data-status="available" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">D07</span>
+<span class="material-symbols-outlined text-emerald-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-emerald-300">Siap</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="31" data-note="Motor Bebek (B 5642 JKL)" data-slot-id="D08" data-status="occupied" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#ef4444]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">D08</span>
+<span class="material-symbols-outlined text-rose-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-rose-300">Ada</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="33" data-note="Kondisi bersih" data-slot-id="D09" data-status="available" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">D09</span>
+<span class="material-symbols-outlined text-emerald-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-emerald-300">Siap</span>
+</button>
+<button class="slot-btn group flex flex-col items-center justify-between p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 transition-all aspect-[3/4] relative" data-distance="35" data-note="Sisi paling timur" data-slot-id="D10" data-status="available" data-type="motor">
+<span class="absolute top-1 right-1 w-1.5 h-1.5 rounded-full bg-[#10b981]"></span>
+<span class="font-label-xs text-label-xs text-slate-400 font-semibold">D10</span>
+<span class="material-symbols-outlined text-emerald-400 text-[18px]">two_wheeler</span>
+<span class="text-[9px] text-emerald-300">Siap</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Visual Helper -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-sm pt-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">touch_app</span>
+<span>Klik slot manapun untuk memuat telemetri &amp; koordinat navigasi ke panel detail.</span>
+</div>
+<span class="font-label-xs text-label-xs bg-surface-container px-space-sm py-1 rounded-full text-on-surface">Pembaruan otomatis tiap 30 dtk</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Selected-Slot Detail Panel (35% ~ 4 cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-md sticky top-20">
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-container-low">
+<span class="font-title-sm text-title-sm text-on-surface">Detail Slot Parkir Terpilih</span>
+<span class="px-2.5 py-0.5 rounded-full bg-primary-fixed text-primary font-label-xs text-label-xs font-bold" id="detailBadgeType">
+              Mobil • Roda 4
+            </span>
+</div>
+<!-- Big Visual Highlight Card -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex items-center justify-between">
+<div class="flex items-center gap-space-md">
+<div class="w-16 h-16 rounded-xl bg-primary text-on-primary flex items-center justify-center shadow-md">
+<span class="font-headline-lg text-headline-lg font-extrabold tracking-tight" id="detailSlotId">A04</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider">Status Operasional</span>
+<div class="flex items-center gap-1.5 mt-0.5" id="detailStatusBadge">
+<span class="w-2.5 h-2.5 rounded-full bg-[#10b981] animate-pulse"></span>
+<span class="font-title-md text-title-md font-bold text-[#065f46]">TERSEDIA</span>
+</div>
+<span class="font-label-xs text-label-xs text-on-surface-variant mt-0.5" id="detailSubnote">Siap dimasuki kendaraan</span>
+</div>
+</div>
+<div class="hidden sm:flex flex-col items-end">
+<span class="font-label-xs text-label-xs text-on-surface-variant">Lantai</span>
+<span class="font-title-sm text-title-sm text-on-surface font-bold">L1 - Zona B</span>
+</div>
+</div>
+<!-- Metadata Spec List -->
+<div class="flex flex-col gap-space-xs font-body-sm text-body-sm">
+<div class="flex items-center justify-between py-2 px-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+<span>Lokasi</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold text-right" id="detailLocation">Gedung 2 Kampus D Depok (Sayap Barat)</span>
+</div>
+<div class="flex items-center justify-between py-2 px-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">directions_walk</span>
+<span>Jarak ke Lift / Pintu</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold text-right" id="detailDistance">~25 Meter (1 Menit)</span>
+</div>
+<div class="flex items-center justify-between py-2 px-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">sensors</span>
+<span>Kondisi Sensor IoT</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold text-right flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                Ultrasonik Aktif (99.4%)
+              </span>
+</div>
+<div class="flex items-center justify-between py-2 px-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">history</span>
+<span>Terakhir Sinkron</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold text-right">12 detik yang lalu</span>
+</div>
+<div class="flex items-center justify-between py-2 px-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">aspect_ratio</span>
+<span>Dimensi Slot</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold text-right" id="detailDimensions">2.5m x 5.0m (Standar Sedan / SUV)</span>
+</div>
+</div>
+<!-- Prototype Interactive Action CTA -->
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<button class="w-full py-space-sm px-space-md rounded-xl bg-primary hover:bg-[#5b21b6] text-on-primary font-label-md text-label-md font-bold transition-all flex items-center justify-center gap-space-xs shadow-sm" id="btnRouteSimulation">
+<span class="material-symbols-outlined text-[20px]">turn_slight_right</span>
+<span>Pilih Slot Ini (Simulasi Rute Navigasi)</span>
+</button>
+<button class="w-full py-space-sm px-space-md rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface font-label-md text-label-md font-semibold transition-all flex items-center justify-center gap-space-xs" id="btnShareSlot">
+<span class="material-symbols-outlined text-[18px]">share</span>
+<span>Bagikan Koordinat Slot</span>
+</button>
+</div>
+<!-- Disclaimer Context Box -->
+<div class="p-space-sm rounded-xl bg-surface-container-low flex items-start gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">info</span>
+<p class="font-body-sm text-body-sm leading-relaxed">
+<strong class="font-semibold text-on-surface">Catatan Prototipe:</strong> Pemilihan slot ini merupakan simulasi antarmuka UI prototype untuk panduan navigasi arah di kampus, bukan sistem pemesanan tiket resmi berbayar.
+            </p>
+</div>
+</div>
+<!-- Feedback Toast (Hidden by default, triggered by JS) -->
+<div class="hidden transform transition-all duration-300 p-space-md rounded-xl bg-inverse-surface text-inverse-on-surface shadow-xl flex items-center gap-space-sm" id="routeToast">
+<span class="material-symbols-outlined text-secondary-container text-[24px]">navigation</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm font-bold text-white">Panduan Navigasi Dimulai!</span>
+<span class="font-label-xs text-label-xs text-slate-300 truncate">Menampilkan arahan menuju slot <span class="font-bold text-secondary-container" id="toastSlotId">A04</span> dari Gerbang Timur.</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Information Bar / Summary Statistics -->
+<div class="bg-surface-container-lowest p-space-md lg:p-space-lg rounded-2xl shadow-sm flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md w-full md:w-auto">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[26px]">analytics</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-sm text-title-sm text-on-surface">Ringkasan Keterisian Gedung 2 • Lantai 1</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+            Total 36 Slot di Lantai Ini • 19 Terisi (53%) • 15 Tersedia • 2 Perhatian/Reservasi
+          </span>
+</div>
+</div>
+<!-- Quick visual bar graph -->
+<div class="flex items-center gap-space-lg w-full md:w-auto justify-between md:justify-end">
+<div class="flex items-center gap-space-md">
+<div class="flex flex-col text-right">
+<span class="font-label-xs text-label-xs text-on-surface-variant uppercase">Kapasitas Sisa</span>
+<span class="font-title-md text-title-md text-on-surface font-extrabold">47% Bebas</span>
+</div>
+<div class="w-32 sm:w-44 h-3 bg-surface-container-high rounded-full overflow-hidden flex">
+<!-- 19 Terisi (53%) -->
+<div class="bg-[#ef4444] h-full" style="width: 53%;"></div>
+<!-- 2 Perhatian (5%) -->
+<div class="bg-[#f59e0b] h-full" style="width: 6%;"></div>
+<!-- 15 Tersedia (41%) -->
+<div class="bg-[#10b981] h-full" style="width: 41%;"></div>
+</div>
+</div>
+<button class="p-2 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface transition-colors" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Kembali ke atas">
+<span class="material-symbols-outlined text-[20px]">arrow_upward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    // Interactive State Management for Parking Slots
+    const slotButtons = document.querySelectorAll('.slot-btn');
+    const detailSlotId = document.getElementById('detailSlotId');
+    const detailBadgeType = document.getElementById('detailBadgeType');
+    const detailStatusBadge = document.getElementById('detailStatusBadge');
+    const detailSubnote = document.getElementById('detailSubnote');
+    const detailLocation = document.getElementById('detailLocation');
+    const detailDistance = document.getElementById('detailDistance');
+    const detailDimensions = document.getElementById('detailDimensions');
+    const routeToast = document.getElementById('routeToast');
+    const toastSlotId = document.getElementById('toastSlotId');
+    const btnRouteSimulation = document.getElementById('btnRouteSimulation');
+    const btnShareSlot = document.getElementById('btnShareSlot');
+
+    let currentSelectedId = 'A04';
+
+    function updateDetailPanel(btn) {
+      const id = btn.getAttribute('data-slot-id');
+      const type = btn.getAttribute('data-type');
+      const status = btn.getAttribute('data-status');
+      const distance = btn.getAttribute('data-distance');
+      const note = btn.getAttribute('data-note') || '-';
+
+      currentSelectedId = id;
+
+      // Unselect previous
+      slotButtons.forEach(b => {
+        b.classList.remove('is-selected', 'scale-[1.04]', 'shadow-purple-500/25', 'bg-primary-container', 'text-on-primary');
+        if (b.getAttribute('data-slot-id') === 'A04' && id !== 'A04') {
+          // Revert default A04 if another selected
+          b.querySelector('.font-label-xs.px-1\\.5')?.classList.remove('bg-white/20', 'text-white', 'font-bold');
+        }
+      });
+
+      // Highlight target button
+      btn.classList.add('is-selected', 'scale-[1.04]', 'shadow-purple-500/25', 'bg-primary-container', 'text-on-primary');
+
+      // Update Panel Text
+      if (detailSlotId) detailSlotId.textContent = id;
+      if (toastSlotId) toastSlotId.textContent = id;
+
+      if (type === 'mobil') {
+        detailBadgeType.textContent = 'Mobil • Roda 4';
+        detailBadgeType.className = 'px-2.5 py-0.5 rounded-full bg-primary-fixed text-primary font-label-xs text-label-xs font-bold';
+        detailDimensions.textContent = '2.5m x 5.0m (Standar Sedan / SUV)';
+      } else {
+        detailBadgeType.textContent = 'Sepeda Motor • Roda 2';
+        detailBadgeType.className = 'px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-xs text-label-xs font-bold';
+        detailDimensions.textContent = '1.0m x 2.2m (Standar Sepeda Motor)';
+      }
+
+      detailDistance.textContent = `~${distance} Meter (${Math.max(1, Math.round(distance / 25))} Menit jalan kaki)`;
+      detailLocation.textContent = `Gedung 2 Kampus D Depok (${id.startsWith('A') || id.startsWith('B') ? 'Sayap Barat' : 'Sayap Timur'})`;
+
+      if (status === 'available') {
+        detailStatusBadge.innerHTML = `
+          <span class="w-2.5 h-2.5 rounded-full bg-[#10b981] animate-pulse"></span>
+          <span class="font-title-md text-title-md font-bold text-[#065f46]">TERSEDIA</span>
+        `;
+        detailSubnote.textContent = note.includes('Dekat') ? note : 'Siap digunakan kapan saja';
+        btnRouteSimulation.disabled = false;
+        btnRouteSimulation.className = 'w-full py-space-sm px-space-md rounded-xl bg-primary hover:bg-[#5b21b6] text-on-primary font-label-md text-label-md font-bold transition-all flex items-center justify-center gap-space-xs shadow-sm cursor-pointer';
+        btnRouteSimulation.innerHTML = '<span class="material-symbols-outlined text-[20px]">turn_slight_right</span><span>Pilih Slot Ini (Simulasi Rute Navigasi)</span>';
+      } else if (status === 'occupied') {
+        detailStatusBadge.innerHTML = `
+          <span class="w-2.5 h-2.5 rounded-full bg-[#ef4444]"></span>
+          <span class="font-title-md text-title-md font-bold text-[#991b1b]">TERISI</span>
+        `;
+        detailSubnote.textContent = note;
+        btnRouteSimulation.disabled = true;
+        btnRouteSimulation.className = 'w-full py-space-sm px-space-md rounded-xl bg-surface-container-high text-on-surface-variant font-label-md text-label-md font-bold transition-all flex items-center justify-center gap-space-xs cursor-not-allowed opacity-75';
+        btnRouteSimulation.innerHTML = '<span class="material-symbols-outlined text-[20px]">block</span><span>Slot Sedang Terisi (Pilih Yang Lain)</span>';
+      } else {
+        detailStatusBadge.innerHTML = `
+          <span class="w-2.5 h-2.5 rounded-full bg-[#f59e0b]"></span>
+          <span class="font-title-md text-title-md font-bold text-[#92400e]">PERHATIAN / RESERVASI</span>
+        `;
+        detailSubnote.textContent = note;
+        btnRouteSimulation.disabled = true;
+        btnRouteSimulation.className = 'w-full py-space-sm px-space-md rounded-xl bg-surface-container-high text-on-surface-variant font-label-md text-label-md font-bold transition-all flex items-center justify-center gap-space-xs cursor-not-allowed opacity-75';
+        btnRouteSimulation.innerHTML = '<span class="material-symbols-outlined text-[20px]">warning</span><span>Slot Tidak Dapat Dipilih Saat Ini</span>';
+      }
+    }
+
+    slotButtons.forEach(btn => {
+      btn.addEventListener('click', () => updateDetailPanel(btn));
+    });
+
+    // Filtering Vehicle Type (All / Mobil / Motor)
+    const filterTypeButtons = document.querySelectorAll('.filter-type-btn');
+    const rowsMobil = document.querySelectorAll('.zone-row-mobil');
+    const rowsMotor = document.querySelectorAll('.zone-row-motor');
+
+    filterTypeButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterTypeButtons.forEach(b => {
+          b.className = 'filter-type-btn px-space-md py-1.5 rounded-lg font-label-sm text-label-sm font-semibold transition-all text-on-surface-variant hover:text-on-surface';
+        });
+        btn.className = 'filter-type-btn px-space-md py-1.5 rounded-lg font-label-sm text-label-sm font-semibold transition-all bg-primary text-on-primary';
+
+        const filter = btn.getAttribute('data-filter');
+        if (filter === 'all') {
+          rowsMobil.forEach(r => r.style.display = 'flex');
+          rowsMotor.forEach(r => r.style.display = 'flex');
+        } else if (filter === 'mobil') {
+          rowsMobil.forEach(r => r.style.display = 'flex');
+          rowsMotor.forEach(r => r.style.display = 'none');
+        } else if (filter === 'motor') {
+          rowsMobil.forEach(r => r.style.display = 'none');
+          rowsMotor.forEach(r => r.style.display = 'flex');
+        }
+      });
+    });
+
+    // Quick Status Filter (All vs Available Only)
+    const btnAllStatus = document.getElementById('filterAllStatus');
+    const btnGreenOnly = document.getElementById('filterGreenOnly');
+
+    btnAllStatus.addEventListener('click', () => {
+      btnAllStatus.className = 'status-toggle-btn px-space-md py-1.5 rounded-lg font-label-sm text-label-sm font-semibold bg-surface-container-high text-on-surface transition-all';
+      btnGreenOnly.className = 'status-toggle-btn px-space-md py-1.5 rounded-lg font-label-sm text-label-sm font-semibold bg-surface-container-low text-on-surface-variant hover:text-on-surface transition-all flex items-center gap-1';
+      slotButtons.forEach(slot => slot.style.opacity = '1');
+    });
+
+    btnGreenOnly.addEventListener('click', () => {
+      btnGreenOnly.className = 'status-toggle-btn px-space-md py-1.5 rounded-lg font-label-sm text-label-sm font-semibold bg-primary text-on-primary transition-all flex items-center gap-1';
+      btnAllStatus.className = 'status-toggle-btn px-space-md py-1.5 rounded-lg font-label-sm text-label-sm font-semibold bg-surface-container-low text-on-surface-variant hover:text-on-surface transition-all';
+      slotButtons.forEach(slot => {
+        if (slot.getAttribute('data-status') === 'available') {
+          slot.style.opacity = '1';
+        } else {
+          slot.style.opacity = '0.2';
+        }
+      });
+    });
+
+    // Simulation Trigger
+    if (btnRouteSimulation) {
+      btnRouteSimulation.addEventListener('click', () => {
+        if (routeToast) {
+          routeToast.classList.remove('hidden');
+          setTimeout(() => {
+            routeToast.classList.add('hidden');
+          }, 4500);
+        }
+      });
+    }
+
+    if (btnShareSlot) {
+      btnShareSlot.addEventListener('click', () => {
+        const dummyText = `Panduan Parkir Gunadarma Park: Slot ${currentSelectedId} di Gedung 2 Kampus D Depok`;
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(dummyText).then(() => {
+            btnShareSlot.innerHTML = '<span class="material-symbols-outlined text-[18px] text-secondary">check</span><span>Koordinat Tersalin!</span>';
+            setTimeout(() => {
+              btnShareSlot.innerHTML = '<span class="material-symbols-outlined text-[18px]">share</span><span>Bagikan Koordinat Slot</span>';
+            }, 2500);
+          });
+        }
+      });
+    }
+  })();
+</script></main></div></body></html>
